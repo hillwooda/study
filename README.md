@@ -7,4 +7,4 @@
 2.进入项目根目录，使用composer命令：composer install 进行安装
 
 ## 系列文章
-1.[thinkphp5整合系列之汉字转拼音完美支持多音字]()
+1.[thinkphp5整合系列之汉字转拼音完美支持多音字](https://blog.csdn.net/hillwooda/article/details/83502994)

@@ -17,14 +17,14 @@ class Index
         echo '<span style="font-weight: bold;">一、拼音数组</span>';
         echo '<br/>';
         echo '1.带着希望去旅行，比到达终点更美好';
-        $str = $pinyin->convert('带着希望去旅行，比到达终点更美好');
+        $str = $pinyin->convert('带着希望去旅行，比到达终点更美好');// ["dai", "zhe", "xi", "wang", "qu", "lyu", "xing", "bi", "dao", "da", "zhong", "dian", "geng", "mei", "hao"]
         dump($str);
         echo '2.带着希望去旅行，比到达终点更美好';
         echo '带声调转化:带着希望去旅行，比到达终点更美好';
-        $str = $pinyin->convert('带着希望去旅行，比到达终点更美好', PINYIN_TONE);
+        $str = $pinyin->convert('带着希望去旅行，比到达终点更美好', PINYIN_TONE);// ["dài","zhe","xī","wàng","qù","lǚ","xíng","bǐ","dào","dá","zhōng","diǎn","gèng","měi","hǎo"]
         dump($str);
         echo '3.带着希望去旅行，比到达终点更美好';
-        $str = $pinyin->convert('带着希望去旅行，比到达终点更美好', PINYIN_ASCII_TONE);
+        $str = $pinyin->convert('带着希望去旅行，比到达终点更美好', PINYIN_ASCII_TONE);//["dai4","zhe","xi1","wang4","qu4","lyu3","xing2","bi3","dao4","da2","zhong1","dian3","geng4","mei3","hao3"]
         dump($str);
 
         echo '<br/>';
